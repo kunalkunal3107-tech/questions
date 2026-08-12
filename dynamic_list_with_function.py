@@ -48,6 +48,7 @@ class dynamic_list:
             return
         else:
             deleted_element = self.number.pop(index)
+            
             print(f"The element {deleted_element} has been deleted.")
             print("The updated list is:", self.number)
 
